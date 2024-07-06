@@ -1,0 +1,445 @@
+h1{
+	font-family: 'opensans-regular',sans-serif;
+	font-size: 3em;
+	line-height: 400%;
+	text-align: center;
+    margin: 50px 50px;
+    padding: 50px 26px;
+	color: #ff6f52;
+
+}
+
+body{
+
+	margin: 0;
+	background-color: black;
+}
+p {
+	font-family: 'opensans-regular',sans-serif;
+	line-height: 150%;
+	color: white;
+}
+span{
+	font-family: 'opensans-regular',sans-serif;
+	line-height: 150%;
+	color: white;
+
+}
+nav{
+	font-family: 'OpenSans-Bold',sans-serif;
+	text-align: center;
+	/*float: left;*/
+}
+nav a {
+
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 40px;
+}
+aside {
+	background-color: black;
+	padding: 20px;
+	float: right;
+	width: 50%;
+}
+footer nav a {
+
+	color: #eee;
+	display: block;
+	padding: 0px;
+	text-align: left;
+}
+footer nav ul li{
+margin: 0px 0 10px;
+}
+footer{
+
+	font-family: 'opensans-regular',sans-serif;
+	background-color: #ff6f52;
+	color: #eee;
+	padding: 10px 10%;
+	margin-top: 20px;
+	grid-column: 1/4;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+h2{
+
+ font-family: 'OpenSans-Bold',sans-serif;
+ font-size: 2em;
+ color: #ff6f52;}
+
+h3{
+
+ font-family: 'OpenSans-Bold',sans-serif;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ color: white;
+}
+
+#copyright{
+
+	font-family: serif;
+	font-style: italic;
+	text-align: center;
+	margin: 40px ;
+	width: 100%;
+
+}
+header h1 a{
+	color: white;
+
+}
+
+header{
+
+	background-image: url("../imgs/event-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	grid-column: 1/4;
+	height: 400px;
+}
+
+#wrapper{
+
+	width: 90%;
+	margin: auto;
+
+}
+.footer-each ul li{
+	margin: 0px 0 10px;
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+
+#heroimg{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	object-position: center;
+}
+
+/*	grid usage for the event categories*/
+#event-categories{ 
+
+	margin: 40px 0px;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#event-categories section { 
+
+	margin-bottom: 20px;
+}
+
+#event-categories img { 
+
+	width: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+#event-categories h3 { 
+
+	margin-top: 16px;
+	color: white;
+}
+#newsletter img{
+	width: 100%;
+	text-align: center;
+	height: 200px;
+}
+
+.grey-bg{
+
+	background-color: #f9f9f9;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+.primary-cta{
+	margin-top: 15px;
+	font-family: opensans-semibold,sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #ffff;
+	padding: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	width: 90%;
+}
+.primary-cta a {
+		color: #ffff;
+		text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+    text-shadow: 0px 0px 1px;
+}
+
+main {
+	border-right: 4px solid #ff6f52;}
+
+h1  a {
+
+	color: #eee;
+	text-decoration: none;
+}
+h1 a:hover{
+
+	text-shadow: 2px 2px 10px #FFFFFF;
+}
+
+.footer-each {
+
+	display: inline-block;
+	flex-grow: 1;
+	padding-left: 10%;
+}
+
+.icon {
+
+	display: block;
+	font-size: 3em;
+}
+
+.item25 {
+
+	width: 23%;
+	text-align: center;
+	box-shadow: 0px 0px 20px #eee;
+}
+
+
+.mobile{
+	display: none;
+}
+
+#pagecontainer{
+
+	display:grid;
+
+}
+#multicol{
+	display:flex; 
+	flex-wrap:wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: black;
+  }
+  
+  .flex-container > div {
+	background-color: black;
+	color: white;
+	width: 31%;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 18px;
+  }
+  .each-block{
+	transition: all .3s ease;
+  }
+  .event{
+    padding: 10px 0;
+}
+
+.content-block{
+	margin-top: 10%;
+}
+
+/*	grid usage for the event categories*/
+.event-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.event-col{
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.event-col img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.primary-cta a {
+
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.event-col:hover img{
+    transform: scale(1.1);
+}
+
+.event-col:hover .layer{
+    height: 100%;
+}
+@media screen and (max-width: 1024px) {
+
+	nav {
+		
+		display: block;
+	}
+
+	footer nav ul li{
+
+		display: block;
+		margin: 0px 0 10px;
+
+	}
+	h1{
+		font-size: 2.5em;
+	}
+	nav a {
+		padding: 10px 30px;
+	}
+	#event-categories section{
+
+		width: 100%;
+
+	}
+	 nav ul li{
+        display:inline;
+
+    }
+
+    nav ul {
+        display:flex;
+        justify-content: space-around;
+        
+    }
+
+    #pagecontainer{
+
+    	display: block;
+		overflow-x: hidden;
+    }
+    footer nav ul {
+
+      flex-direction: column;
+    }
+
+    aside {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+		background-color: lightgray;
+	}
+	main {
+		border-right: none;
+	}
+	#event-categories{
+
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+}
+@media screen and (max-width: 760px) {
+
+	.desktop {
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+
+	#pagecontainer {
+		width: 100%;
+		overflow-x: hidden;
+ 	}
+	nav{
+		border-bottom: 1px solid #d4d4d4;
+		display: block;
+	}
+
+ 	.item25{
+
+ 		width: 50%;
+ 	}
+
+ 	h1{
+		font-size: 1em;
+		line-height: 650%;
+	}
+
+ 	nav li{
+
+ 		display: block;
+ 	}
+ 	#event-categories img{
+
+ 		width: 100%;
+ 	}
+ 	nav ul{
+
+ 		flex-direction: column;
+ 	}
+ 	aside {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+ 	.footer-each{
+
+ 		float: none;
+ 		display: block;
+ 		padding-left: 35%;
+ 		width: 100%;
+ 	}
+/*	grid ordering for the event categories*/
+ 	#event-categories{
+
+ 		grid-template-columns: 1fr;
+
+ 	}
+
+ 	footer nav{
+ 		width: 50%;
+ 	}
+
+	header{
+		height: 200px;
+	}
+
+	header h1{
+
+		font-size: 1.8em;
+	}
+ 	main {
+		border-right: none;}
+
+	aside{
+		background-color: lightgray;
+	}
+}
